@@ -15,7 +15,7 @@ export class FaceSnapListComponent implements  OnInit {
   constructor(private faceSnapsService: FaceSnapsService) { }
 
   ngOnInit(): void {
-      this.faceSnaps = this.faceSnapsService.faceSnaps;
+      this.faceSnaps = this.faceSnapsService.getAllFaceSnaps();
     } 
   }
 
