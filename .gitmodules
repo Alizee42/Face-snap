@@ -1,3 +1,0 @@
-[submodule "path/to/submodule"]
-	path = path/to/submodule
-	url = https://github.com/OpenClassrooms-Student-Center/angular-intermediate-backend.git
